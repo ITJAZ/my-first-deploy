@@ -1,13 +1,12 @@
 import { useState } from 'react'
-import { Button } from '@mui/material'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [acValue, setAcValue] = useState('');
 
   return (
     <>
-      <Button variant='contained'>Cool</Button>
+      <div>{acValue}</div>
     </>
   )
 }
